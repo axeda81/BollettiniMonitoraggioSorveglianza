@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BollettinoPiogge", "BollettinoPiogge\BollettinoPiogge.csproj", "{461E3AB5-F78C-4A76-A424-F67F2FB6A19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraficoPluviometri", "..\GraficoPluviometri\GraficoPluviometri\GraficoPluviometri.csproj", "{AB39CC9D-8A7E-4062-9DF6-B1F535E421D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BollettinoIdrometri", "..\BollettinoIdrometri\BollettinoIdrometri\BollettinoIdrometri.csproj", "{1FD3C2EE-DC11-4A26-A4EC-FFB5182C0EEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraficoIdrometri", "..\GraficoIdrometri\GraficoIdrometri\GraficoIdrometri.csproj", "{5C817366-C3C3-4B4A-BDD5-F06B6670C3F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllegatoA", "..\AllegatoA\AllegatoA\AllegatoA.csproj", "{AAF0E672-63A6-4691-B198-C83CE81E505E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{461E3AB5-F78C-4A76-A424-F67F2FB6A19A}.Debug|x86.ActiveCfg = Debug|x86
+		{461E3AB5-F78C-4A76-A424-F67F2FB6A19A}.Debug|x86.Build.0 = Debug|x86
+		{461E3AB5-F78C-4A76-A424-F67F2FB6A19A}.Release|x86.ActiveCfg = Release|x86
+		{461E3AB5-F78C-4A76-A424-F67F2FB6A19A}.Release|x86.Build.0 = Release|x86
+		{AB39CC9D-8A7E-4062-9DF6-B1F535E421D8}.Debug|x86.ActiveCfg = Debug|x86
+		{AB39CC9D-8A7E-4062-9DF6-B1F535E421D8}.Debug|x86.Build.0 = Debug|x86
+		{AB39CC9D-8A7E-4062-9DF6-B1F535E421D8}.Release|x86.ActiveCfg = Release|x86
+		{AB39CC9D-8A7E-4062-9DF6-B1F535E421D8}.Release|x86.Build.0 = Release|x86
+		{1FD3C2EE-DC11-4A26-A4EC-FFB5182C0EEF}.Debug|x86.ActiveCfg = Debug|x86
+		{1FD3C2EE-DC11-4A26-A4EC-FFB5182C0EEF}.Debug|x86.Build.0 = Debug|x86
+		{1FD3C2EE-DC11-4A26-A4EC-FFB5182C0EEF}.Release|x86.ActiveCfg = Release|x86
+		{1FD3C2EE-DC11-4A26-A4EC-FFB5182C0EEF}.Release|x86.Build.0 = Release|x86
+		{5C817366-C3C3-4B4A-BDD5-F06B6670C3F1}.Debug|x86.ActiveCfg = Debug|x86
+		{5C817366-C3C3-4B4A-BDD5-F06B6670C3F1}.Debug|x86.Build.0 = Debug|x86
+		{5C817366-C3C3-4B4A-BDD5-F06B6670C3F1}.Release|x86.ActiveCfg = Release|x86
+		{5C817366-C3C3-4B4A-BDD5-F06B6670C3F1}.Release|x86.Build.0 = Release|x86
+		{AAF0E672-63A6-4691-B198-C83CE81E505E}.Debug|x86.ActiveCfg = Debug|x86
+		{AAF0E672-63A6-4691-B198-C83CE81E505E}.Debug|x86.Build.0 = Debug|x86
+		{AAF0E672-63A6-4691-B198-C83CE81E505E}.Release|x86.ActiveCfg = Release|x86
+		{AAF0E672-63A6-4691-B198-C83CE81E505E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+C:\Nuova cartella\GraficoPluviometri\GraficoPluviometri\bin\Debug\GraficoPluviometri.exe
+C:\Nuova cartella\GraficoPluviometri\GraficoPluviometri\bin\Debug\GraficoPluviometri.pdb
+C:\Nuova cartella\GraficoPluviometri\GraficoPluviometri\obj\x86\Debug\GraficoPluviometri.exe
+C:\Nuova cartella\GraficoPluviometri\GraficoPluviometri\obj\x86\Debug\GraficoPluviometri.pdb
+C:\PC_AnalisiPioggia\Chiara\GraficoPluviometri\GraficoPluviometri\bin\Debug\GraficoPluviometri.exe
+C:\PC_AnalisiPioggia\Chiara\GraficoPluviometri\GraficoPluviometri\bin\Debug\GraficoPluviometri.pdb
+C:\PC_AnalisiPioggia\Chiara\GraficoPluviometri\GraficoPluviometri\obj\x86\Debug\GraficoPluviometri.exe
+C:\PC_AnalisiPioggia\Chiara\GraficoPluviometri\GraficoPluviometri\obj\x86\Debug\GraficoPluviometri.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoPluviometri\GraficoPluviometri\bin\Debug\GraficoPluviometri.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoPluviometri\GraficoPluviometri\bin\Debug\GraficoPluviometri.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoPluviometri\GraficoPluviometri\obj\x86\Debug\GraficoPluviometri.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoPluviometri\GraficoPluviometri\obj\x86\Debug\GraficoPluviometri.pdb

@@ -1,0 +1,12 @@
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\GraficoIdrometri.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\GraficoIdrometri.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\MigraDoc.DocumentObjectModel.dll
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\MigraDoc.Rendering.dll
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\MigraDoc.RtfRendering.dll
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\Mono.Security.dll
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\Npgsql.dll
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\PdfSharp.Charting.dll
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\PdfSharp.dll
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Release\ZedGraph.dll
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\obj\x86\Release\GraficoIdrometri.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\obj\x86\Release\GraficoIdrometri.pdb

@@ -1,0 +1,13 @@
+C:\Nuova cartella\BollettinoIdrometri\BollettinoIdrometri\bin\Debug\BollettinoIdrometri.exe
+C:\Nuova cartella\BollettinoIdrometri\BollettinoIdrometri\bin\Debug\BollettinoIdrometri.pdb
+C:\Nuova cartella\BollettinoIdrometri\BollettinoIdrometri\obj\x86\Debug\BollettinoIdrometri.exe
+C:\Nuova cartella\BollettinoIdrometri\BollettinoIdrometri\obj\x86\Debug\BollettinoIdrometri.pdb
+C:\Nuova cartella\BollettinoIdrometri\BollettinoIdrometri\obj\x86\Debug\BollettinoIdrometri.csprojResolveAssemblyReference.cache
+C:\PC_AnalisiPioggia\Chiara\BollettinoIdrometri\BollettinoIdrometri\bin\Debug\BollettinoIdrometri.exe
+C:\PC_AnalisiPioggia\Chiara\BollettinoIdrometri\BollettinoIdrometri\bin\Debug\BollettinoIdrometri.pdb
+C:\PC_AnalisiPioggia\Chiara\BollettinoIdrometri\BollettinoIdrometri\obj\x86\Debug\BollettinoIdrometri.exe
+C:\PC_AnalisiPioggia\Chiara\BollettinoIdrometri\BollettinoIdrometri\obj\x86\Debug\BollettinoIdrometri.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoIdrometri\BollettinoIdrometri\bin\Debug\BollettinoIdrometri.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoIdrometri\BollettinoIdrometri\bin\Debug\BollettinoIdrometri.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoIdrometri\BollettinoIdrometri\obj\x86\Debug\BollettinoIdrometri.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoIdrometri\BollettinoIdrometri\obj\x86\Debug\BollettinoIdrometri.pdb

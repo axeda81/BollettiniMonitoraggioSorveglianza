@@ -1,0 +1,24 @@
+C:\Nuova cartella\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.exe.manifest
+C:\Nuova cartella\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.application
+C:\Nuova cartella\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.exe
+C:\Nuova cartella\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.pdb
+C:\Nuova cartella\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.exe.manifest
+C:\Nuova cartella\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.application
+C:\Nuova cartella\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.exe
+C:\Nuova cartella\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.pdb
+C:\PC_AnalisiPioggia\Chiara\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.exe
+C:\PC_AnalisiPioggia\Chiara\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.pdb
+C:\PC_AnalisiPioggia\Chiara\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.exe.manifest
+C:\PC_AnalisiPioggia\Chiara\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.application
+C:\PC_AnalisiPioggia\Chiara\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.exe
+C:\PC_AnalisiPioggia\Chiara\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.pdb
+C:\PC_AnalisiPioggia\Chiara\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.exe.manifest
+C:\PC_AnalisiPioggia\Chiara\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.application
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.exe.manifest
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.application
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoPiogge\BollettinoPiogge\bin\Debug\BollettinoPiogge.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.exe.manifest
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.application
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\BollettinoPiogge\BollettinoPiogge\obj\x86\Debug\BollettinoPiogge.pdb

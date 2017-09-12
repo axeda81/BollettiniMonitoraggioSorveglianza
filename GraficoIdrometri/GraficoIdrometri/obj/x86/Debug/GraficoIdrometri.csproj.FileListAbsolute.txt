@@ -1,0 +1,4 @@
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Debug\GraficoIdrometri.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\bin\Debug\GraficoIdrometri.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\obj\x86\Debug\GraficoIdrometri.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\GraficoIdrometri\GraficoIdrometri\obj\x86\Debug\GraficoIdrometri.pdb

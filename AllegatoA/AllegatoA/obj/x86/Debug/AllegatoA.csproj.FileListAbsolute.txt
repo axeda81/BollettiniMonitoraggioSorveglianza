@@ -1,0 +1,9 @@
+C:\AllegatoA - prova\AllegatoA\AllegatoA\AllegatoA\bin\Debug\AllegatoA.exe
+C:\AllegatoA - prova\AllegatoA\AllegatoA\AllegatoA\bin\Debug\AllegatoA.pdb
+C:\AllegatoA - prova\AllegatoA\AllegatoA\AllegatoA\obj\x86\Debug\AllegatoA.exe
+C:\AllegatoA - prova\AllegatoA\AllegatoA\AllegatoA\obj\x86\Debug\AllegatoA.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\AllegatoA\AllegatoA\bin\Debug\AllegatoA.exe.config
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\AllegatoA\AllegatoA\bin\Debug\AllegatoA.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\AllegatoA\AllegatoA\bin\Debug\AllegatoA.pdb
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\AllegatoA\AllegatoA\obj\x86\Debug\AllegatoA.exe
+\\Dsmsrvfile\DocUtenti\corru\Documenti\Visual Studio 2010\Projects\AllegatoA\AllegatoA\obj\x86\Debug\AllegatoA.pdb
