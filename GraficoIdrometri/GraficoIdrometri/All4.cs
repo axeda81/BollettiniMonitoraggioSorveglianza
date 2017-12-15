@@ -19,8 +19,9 @@ namespace BollettiniMonitoraggio
         const int indiceS1 = 3;
         const int indiceS2 = 4;
         const int indiceS3 = 5;
-        const int indiceH = 6;
-
+        const int indiceZeroIdrometrico = 6;
+        const int indiceH = 7;
+        
         protected Document document;
         protected Table table;
         protected Section section;
@@ -55,7 +56,7 @@ namespace BollettiniMonitoraggio
             {
                 // Intercetta la System.IO.FileNotFoundException nel caso non sia stato trovato il file .ini
                 err.Source = "IniParser";
-                log.WriteToLog("ALL. 4 - BollettinoPiogge: eccezione di tipo " + err.GetType().ToString() + " (" + err.Message + ")", level.Exception);
+                log.WriteToLog("ALL. 4 - GraficoIdrometri: eccezione di tipo " + err.GetType().ToString() + " (" + err.Message + ")", level.Exception);
             }
 
             filename = "Allegato4.pdf";
@@ -72,7 +73,7 @@ namespace BollettiniMonitoraggio
                 {
                     // Creazione del PDF
                     document = new Document();
-                    document.Info.Title = "Pioggia registrata nelle ultime 24 ore";
+                    document.Info.Title = "";
                     document.Info.Author = "R.A.S.";
                     document.UseCmykColor = true;
                     const bool unicode = true;
@@ -248,11 +249,12 @@ namespace BollettiniMonitoraggio
         private void DisegnaGrafico(String[] elencoCampi, double[] punti, int index)
         {
             // Le informazioni sulle soglie e sull'altezza misurata servono per disegnare delle rette a quei livelli
-            double s1 = 0, s2 = 0, s3 = 0, h = 0;
+            double s1 = 0, s2 = 0, s3 = 0, zi = 0,  h = 0; 
             s1 = Convert.ToDouble(elencoCampi[indiceS1]);
             s2 = Convert.ToDouble(elencoCampi[indiceS2]);
             s3 = Convert.ToDouble(elencoCampi[indiceS3]);
-            h = Convert.ToDouble(elencoCampi[indiceH]);
+            zi = Convert.ToDouble(elencoCampi[indiceZeroIdrometrico]); 
+            h = zi + Convert.ToDouble(elencoCampi[indiceH]); // La misura dell'idrometro è relativa allo zero idrometrico
 
             int valMaxX = (int)(punti[punti.Length - 2]); // Valore massimo di X che devo rappresentare
 
@@ -260,14 +262,16 @@ namespace BollettiniMonitoraggio
             Double[] Y = new Double[punti.Length / 2];
 
             // Preparo un array di stringhe in cui mettere i valori delle soglie che andranno disegnati sul grafico sul lato destro
-            string[] valoriAsseY2 = new string[4];
-            Double[] valoriAsseY2numerici = new Double[4];
+            const int numStringhe = 5;
+            string[] valoriAsseY2 = new string[numStringhe];
+            Double[] valoriAsseY2numerici = new Double[numStringhe];
             valoriAsseY2numerici[0] = s1;
             valoriAsseY2numerici[1] = s2;
             valoriAsseY2numerici[2] = s3;
-            valoriAsseY2numerici[3] = h;
+            valoriAsseY2numerici[3] = zi;
+            valoriAsseY2numerici[4] = h;
             Array.Sort(valoriAsseY2numerici);
-            for (int v = 0; v < 4; v++) valoriAsseY2[v] = valoriAsseY2numerici[v].ToString();
+            for (int v = 0; v < numStringhe; v++) valoriAsseY2[v] = valoriAsseY2numerici[v].ToString();
 
             // Metto nei vettori X e Y le coordinate dei punti della spezzata che devo disegnare
             int cont = 0;
@@ -341,6 +345,11 @@ namespace BollettiniMonitoraggio
             curva = chart.AddCurve(label, tmpX, tmpY, System.Drawing.Color.Red);
             curva.Symbol.Size = 0.5F;
             curva.Line.Width = 5;
+            tmpY[0] = tmpY[1] = zi;
+            label = "Zero idrometrico = " + zi.ToString();
+            curva = chart.AddCurve(label, tmpX, tmpY, System.Drawing.Color.Green);
+            curva.Symbol.Size = 0.5F;
+            curva.Line.Width = 5;
             tmpY[0] = tmpY[1] = h;
             label = "h = " + h.ToString();
             curva = chart.AddCurve(label, tmpX, tmpY, System.Drawing.Color.Blue);
@@ -409,7 +418,6 @@ namespace BollettiniMonitoraggio
             tf.Add(disclaimer);        
         
         }
-
 
         private double[] riordinaPunti(String[] elencoCampi)
         {
