@@ -114,13 +114,13 @@ namespace BollettiniMonitoraggio
             section = this.document.AddSection();
             // Il pdf verrà stampato in orizzontale
             section.PageSetup.Orientation = MigraDoc.DocumentObjectModel.Orientation.Landscape;
-            section.PageSetup.TopMargin = "05mm";
+            section.PageSetup.TopMargin = "10mm";
             section.PageSetup.LeftMargin = "05mm";
             section.PageSetup.RightMargin = "05mm";
-            section.PageSetup.BottomMargin = "05mm";
+            section.PageSetup.BottomMargin = "15mm";
             section.PageSetup.DifferentFirstPageHeaderFooter = false;
 
-            section.PageSetup.FooterDistance = Unit.FromCentimeter(0.5);
+            section.PageSetup.FooterDistance = Unit.FromCentimeter(0); // distanza del footer dal fondo della pagina
 
             // Aggiungo i numeri di pagina
             section.PageSetup.OddAndEvenPagesHeaderFooter = true;
@@ -171,8 +171,8 @@ namespace BollettiniMonitoraggio
             table.Rows.LeftIndent = 0;
             table.Format.Alignment = ParagraphAlignment.Center;
             const int numColonne = 11;
-            table.TopPadding = 1;
-            table.BottomPadding = 1;
+            table.TopPadding = 3;
+            table.BottomPadding = 3;
             table.Format.Font.Size = 7;
 
             // Definisco le colonne
@@ -271,6 +271,9 @@ namespace BollettiniMonitoraggio
             string riga = fileCSV.ReadLine();
             string[] elencoCampi = { "" };
 
+//            const int numRighePerPagina = 20; // num massimo di righe per pagina, poi si va a quella successiva
+//            int numRigheScritte = 0; // contatore delle righe inserite 
+
             // ****** Prime due letture del file per ottenere numero di bacini e numero di stazioni per ogni bacino ******
 
             int numBacini = 0;
@@ -333,7 +336,9 @@ namespace BollettiniMonitoraggio
                     riga = riga.Remove(0, 1);
 
                 elencoCampi = CSVRowToStringArray(riga, ';', '\n');
+
                 Row row = table.AddRow();
+
                 row.Format.Font.Bold = false;
                 row.Cells[0].Shading.Color = Colors.LawnGreen;
                 row.Cells[0].AddParagraph(elencoCampi[0]);
